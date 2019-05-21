@@ -1,0 +1,9 @@
+body {
+	text-align: center;
+	background: #0a0047 url(images/background2.png) no-repeat;
+	width: 50%;
+	height: 50%;
+	background-position:center top;
+	width: 100%;
+	margin:auto;
+}

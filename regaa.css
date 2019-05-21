@@ -1,0 +1,140 @@
+/*
+	Swift Panel Template
+	 Redesigned by REGA
+	www.drazen-regoje.me
+*/
+
+.trans {
+	border: 2px solid #463f74;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	background: rgba(0, 0, 0, 0.6);
+	margin-bottom: 20px;
+}
+
+#sumleft {
+	float: left;
+	width: 344px;
+	height: 250px;
+	// background: rgba(0, 0, 0, 0.5) url('img/img_16.png') no-repeat left bottom;
+	margin-right: 20px;
+}
+
+#sumleft img {
+	display: block;
+	position: relative;
+	top: 55px;
+}
+
+#sumright {
+	float: left;
+	width: 344px;
+	height: 250px;
+	margin-right: 20px;
+}
+#sumbuttons {
+	float: left;
+	width 100px;
+}
+
+#sumbuttons img {
+	display: block;
+	margin: 2px;
+}
+#sumcon hr {
+	width: 90%;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+@font-face {
+    font-family: 'ger';
+    src: url('img/g1.oet');
+    src: url('img/g1.eot?#iefix') format('embedded-opentype'),
+         url('img/g1.woff') format('woff'),
+         url('img/g1.ttf') format('truetype'),
+         url('img/g1.svg#ger') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#sumcon h2 {
+        font-family: ger;
+	font-size: 18px;
+        margin: 15px;
+}
+
+#sumcon table td {
+	font-family: arial;
+	font-size: 14px;
+}
+
+.fwhite { color: #fff; }
+
+#shortcuts {
+	height: 48px;
+	position: relative;
+	top: 53px;
+	-webkit-border-radius: 0px 0px 18px 18px;
+	-moz-border-radius: 18px;	
+}
+
+#shortcuts a { margin: 0; }
+
+#container {
+	min-height: 500px;
+	background: url('img/logo.png') center no-repeat;
+}
+
+#sumconf {
+	width: 430px;
+	height: 390px;
+	float: left;
+}
+
+#sumstat {
+	width: 443px;
+	height: 390px;
+	float: right;
+}
+
+#sumcon input {
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+.gbutton {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	padding: 4px 30px;
+	color: #fff;
+	font-family: ger;
+	font-size: 15px;
+	margin: 0px 10px;
+}
+.gbutton:hover { background-color: rgba(0, 0, 0, 0.2); }
+
+.ggreen { background-color: rgba(0, 255, 0, 0.2); }
+.gred { background-color: rgba(255, 0, 0, 0.2); }
+
+#addadmin {
+	margin: 0 auto;
+	width: 500px;
+}
+
+#addadmin select {
+	width: 210px;
+	background: #000000;
+	padding: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+#addadmin input[type=text] { background: rgba(0, 0, 0, 0.2); width: 199px; }
+#addadmin input {
+	border: 2px solid rgba(255, 255, 255, 0.4);
+	padding: 4px;
+}
+
+.itext { padding: 10px; margin: 10px; }
